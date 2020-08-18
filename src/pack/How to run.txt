@@ -1,0 +1,7 @@
+export CLASSPATH=/Users/omarkhodr/Documents/AUB/AUB\ Spring\ 2019-2020/EECE\ 334/Assignments/Grammar/antlr-3.5.2-complete.jar:$CLASSPATH
+
+to check if that worked:
+java 'org.antlr.Tool' -version
+
+and finally to generate TLexer and TParser:
+java 'org.antlr.Tool' 'T.g'
